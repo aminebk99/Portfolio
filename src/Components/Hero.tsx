@@ -2,11 +2,11 @@ import React from 'react'
 
 const Hero = () => {
     return (
-        <div className=' px-8 flex h-full items-center'>
+        <div className='2xl:mx-80 px-8 flex h-full items-center'>
             <div className="w-69">
                 <h4 className='text-2xl font-bold'>I'm Mohamed Amine Bazaou</h4>
-                <h2 className='text-5xl font-bold my-6'>Software Engineer</h2>
-                <p className='my-6'>A highly motivated student studying Artificial Intelligence 
+                <h2 className='text-5xl font-bold my-6 text-blue-700'>Software Engineer</h2>
+                <p className='my-6 text-gray-600'>A highly motivated student studying Artificial Intelligence 
                     and Machine Learning. Actively seeking opportunities to apply 
                     my skills and knowledge to real-world projects and contribute 
                     to the advancement of the industry.</p>
