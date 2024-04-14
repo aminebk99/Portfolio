@@ -1,3 +1,4 @@
+<h1>Portfolio Showcase</h1>
 Welcome to my portfolio! This sleek and modern website is built using Vite.js and React for a fast and responsive user experience. With the aesthetic finesse of Tailwind CSS, the design is both visually appealing and highly functional.
 
 <h2>Overview</h2>
