@@ -17,15 +17,7 @@ Welcome to my portfolio! This sleek and modern website is built using Vite.js an
   <li><strong>React:</strong> A powerful JavaScript library for building user interfaces, enabling dynamic and interactive content.</li>
   <li><strong>Tailwind CSS:</strong> A utility-first CSS framework that allows for rapid UI development with minimal custom styling required.</li>
 </ul>
-<h2>Getting Started</h2>
-<p>To run this portfolio locally:</p>
-<ol>
-  <li>Clone this repository.</li>
-  <li>Navigate to the project directory.</li>
-  <li>Install dependencies using <code>npm install</code>.</li>
-  <li>Start the development server with <code>npm run dev</code>.</li>
-  <li>Open your browser and visit <code>http://localhost:3000</code>.</li>
-</ol>
+
 <h2>Feedback</h2>
 <p>I'm constantly striving to improve and evolve. If you have any feedback or suggestions regarding this portfolio or any of its contents, please feel free to reach out to me via the contact form.</p>
 <p>Thank you for visiting my portfolio! I look forward to the possibility of working together on exciting projects in the future.</p>
