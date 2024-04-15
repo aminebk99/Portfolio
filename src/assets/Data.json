@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "title": "E-commerce",
+        "description": "This e-commerce website is built using React and Tailwind CSS. For connecting with APIs, I utilized Axios. I have implemented various pages including the home page, sign-in/sign-up, cart, checkout, thank you page, and product filtering functionality, among other features",
+        "githubUrl": "https://github.com/aminebk99/e-commerce-project",
+        "previewUrl": "https://e-commerce-project-sand.vercel.app/"
+    },
+    {
+        "id": 2,
+        "title": "Text to Speech Converter",
+        "description": "I developed a Text-to-Speech Converter using React, Bootstrap, Axios, and the OpenAI API. With this tool, you can input text and click 'send' to convert it into speech. Additionally, you have the option to select your preferred language and voice, such as French (FR) or English (EN), as well as male or female voices.",
+        "githubUrl": "https://github.com/aminebk99/Text-to-speech",
+        "previewUrl": "https://text-to-speech-two-inky.vercel.app/"
+    },
+    {
+        "id": 3,
+        "title": "E-commerce",
+        "description": "This e-commerce website is built using React and Tailwind CSS. For connecting with APIs, I utilized Axios. I have implemented various pages including the home page, sign-in/sign-up, cart, checkout, thank you page, and product filtering functionality, among other features",
+        "githubUrl": "https://github.com/aminebk99/e-commerce-project",
+        "previewUrl": "https://e-commerce-project-sand.vercel.app/"
+    },
+    {
+        "id": 4,
+        "title": "Text to Speech Converter",
+        "description": "I developed a Text-to-Speech Converter using React, Bootstrap, Axios, and the OpenAI API. With this tool, you can input text and click 'send' to convert it into speech. Additionally, you have the option to select your preferred language and voice, such as French (FR) or English (EN), as well as male or female voices.",
+        "githubUrl": "https://github.com/aminebk99/Text-to-speech",
+        "previewUrl": "https://text-to-speech-two-inky.vercel.app/"
+    }
+]
