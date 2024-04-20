@@ -14,12 +14,12 @@ const Home = () => {
     <>
     <Header /> 
     <Hero />
-    <TechStacks />
+    {/* <TechStacks />
     <AboutMe />
     <Certificate />
     <Projects />
     <Contact />
-    <Footer />
+    <Footer /> */}
       
     </>
   )
