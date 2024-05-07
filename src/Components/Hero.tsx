@@ -3,7 +3,7 @@ import amineImage from '../../public/amine.png';
 
 const Hero = () => {
     return (
-        <div className='w-auto xl:mx-14 2xl:mx-80 lg:mx-8 md:mx-8 sm:mx-14 flex flex-col items-center justify-center md:flex-row md:items-center md:justify-between'>
+        <div className='mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8'>
             <div className="md:w-1/2  md:flex md:flex-col md:justify-center">
                 <h4 className='lg:text-2xl font-bold md:text-start text-center'>I'm Mohamed Amine Bazaou</h4>
                 <h2 className='text-3xl lg:text-5xl font-bold md:text-start text-center my-4 text-blue-700 text-shadow-md'>Software Engineer</h2>
