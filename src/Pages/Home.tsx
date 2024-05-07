@@ -7,6 +7,7 @@ import Certificate from "../Components/Certificate"
 import Projects from "../Components/Projects"
 import Contact from "../Components/Contact"
 import Footer from "../Components/Footer"
+import ExperiencesAndEducations from "../Components/ExperiencesAndEducations"
 
 
 const Home = () => {
@@ -15,6 +16,7 @@ const Home = () => {
     <Header /> 
     <Hero />
     <AboutMe />
+    <ExperiencesAndEducations />
     {/* <TechStacks />
     <Certificate />
     <Projects />
