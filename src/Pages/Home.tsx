@@ -14,8 +14,8 @@ const Home = () => {
     <>
     <Header /> 
     <Hero />
-    {/* <TechStacks />
     <AboutMe />
+    {/* <TechStacks />
     <Certificate />
     <Projects />
     <Contact />
