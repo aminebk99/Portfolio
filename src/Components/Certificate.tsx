@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { MdArrowBackIosNew, MdArrowForwardIos } from "react-icons/md";
 
 const Certificate = () => {
-  const [currentIndex, setCurrentIndex] = useState(0);
+  const [currentIndex, setCurrentIndex] = useState(1);
 
   const images = [
     "https://via.placeholder.com/300",
@@ -23,8 +23,6 @@ const Certificate = () => {
   };
 
   return (
-    <div className="flex flex-col justify-center items-center">
-      <h2 className="text-5xl font-bold my-4 text-shadow-sm">Certificate</h2>
       <div className="relative w-full overflow-hidden">
         <div className="flex  items-center">
           {currentIndex > 0 && (
@@ -59,7 +57,6 @@ const Certificate = () => {
           )}
         </div>
       </div>
-    </div>
   );
 };
 

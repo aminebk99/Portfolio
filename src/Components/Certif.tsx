@@ -1,4 +1,5 @@
 import React from "react";
+import Certificate from "../Components/Certificate"
 
 const Certif = () => {
   return (
@@ -6,6 +7,7 @@ const Certif = () => {
       <h2 className="text-3xl lg:text-5xl font-bold md:text-start text-center my-4 text-black-700 text-shadow-md">
         Certificate
       </h2>
+      <Certificate />
     </div>
   );
 };
