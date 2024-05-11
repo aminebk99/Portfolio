@@ -1,63 +1,15 @@
-import React, { useState } from "react";
-import { MdArrowBackIosNew, MdArrowForwardIos } from "react-icons/md";
+import React from "react";
+import Slide from "./Slide"
 
-const Certificate = () => {
-  const [currentIndex, setCurrentIndex] = useState(1);
-
-  const images = [
-    "https://via.placeholder.com/300",
-    "https://via.placeholder.com/300",
-    "https://via.placeholder.com/300",
-    "https://via.placeholder.com/300",
-    "https://via.placeholder.com/300"
-  ];
-
-  const handlePrev = () => {
-    setCurrentIndex((prevIndex) => Math.max(prevIndex - 1, 0));
-  };
-
-  const handleNext = () => {
-    setCurrentIndex((prevIndex) =>
-      Math.min(prevIndex + 1, images.length - 1)
-    );
-  };
-
+const Certif = () => {
   return (
-      <div className="relative w-full overflow-hidden">
-        <div className="flex  items-center">
-          {currentIndex > 0 && (
-            <button className="" onClick={handlePrev}>
-              <MdArrowBackIosNew />
-            </button>
-          )}
-          <div className="relative w-full flex justify-center">
-            {images.map((image, index) => (
-              <div
-                key={index}
-                className={`transform transition-transform ${
-                  index === currentIndex
-                    ? "scale-100"
-                    : Math.abs(currentIndex - index) === 1
-                    ? "scale-50"
-                    : "hidden"
-                }`}
-              >
-                <img
-                  src={image}
-                  alt={`Certificate ${index}`}
-                  className="max-w-full max-h-80"
-                />
-              </div>
-            ))}
-          </div>
-          {currentIndex < images.length - 1 && (
-            <button className="absolute top-0 bottom-0 right-0 z-10" onClick={handleNext}>
-              <MdArrowForwardIos />
-            </button>
-          )}
-        </div>
-      </div>
+    <div className="mx-auto md:flex md:flex-col  max-w-7xl items-center justify-between p-6 lg:px-8">
+      <h2 className="text-3xl lg:text-5xl font-bold md:text-start text-center my-4 text-black-700 text-shadow-md">
+        Certificate
+      </h2>
+      <Slide />
+    </div>
   );
 };
 
-export default Certificate;
+export default Certif;
