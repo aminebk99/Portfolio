@@ -15,11 +15,12 @@ const Home = () => {
     <>
     <Header /> 
     <Hero />
+    <TechStacks />
     <AboutMe />
     <ExperiencesAndEducations />
     <Certificate />
     <Footer />
-    {/* <TechStacks />
+    {/* 
     <Certificate />
     <Projects />
     <Contact />
